@@ -43,10 +43,10 @@ The site is live at : LINK TO YOUR WEBSITE HERE
 
 *This project uses GPL license.*
 
-Copyright (c) 2022 **YOUR NAME HERE**
+Copyright (c) 2022 **DianaM**
 
 ### Github Pages
 
 *This project uses MIT license.*
 
-Copyright (c) 2022 **YOUR NAME HERE**
+Copyright (c) 2022 **DianaM**
