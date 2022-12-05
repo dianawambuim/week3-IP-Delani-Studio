@@ -4,7 +4,7 @@ body {
 }
 
 .header-image {
-    background-image: url("img/h_img.jpg");
+    background-image: url("https://github.com/dianawambuim/week3-IP-Delani-Studio/blob/main/img/h_img.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -41,13 +41,16 @@ body {
     transform: translate(-50%, -50%);
     color: white;
 }
+
 .portfolio {
     margin: 15px;
-    }
-    .img-resize{
-        max-width: 100%;
-        height: auto;
-    }
+}
+
+.img-resize {
+    max-width: 100%;
+    height: auto;
+}
+
 .footer {
     background-image: url("img/c_image.jpg");
     height: 500px;
@@ -112,8 +115,7 @@ input[type=submit]:hover {
 }
 
 /* Responsive layout - when the screen is less than 768px wide,  */
-@media (min-width: 768px)
-.col-md-4 {
+@media (min-width: 768px) .col-md-4 {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
@@ -123,5 +125,5 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 
-    
+
 }
