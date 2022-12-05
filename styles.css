@@ -21,7 +21,7 @@ body {
     transform: translate(-50%, -50%);
     color: white;
 }
-
+P
 .services {
     background-image: url("./img/s_image.jpg");
     height: 500px;
@@ -105,7 +105,11 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-
+.col {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -115,15 +119,4 @@ input[type=submit]:hover {
 }
 
 /* Responsive layout - when the screen is less than 768px wide,  */
-@media (min-width: 768px) .col-md-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-
-    input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
-
-
-}
+@media (min-width: 768px)
