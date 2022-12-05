@@ -4,7 +4,7 @@ body {
 }
 
 .header-image {
-    background-image:url("./img/h_img.jpg");
+    background-image: url("./img/h_img.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -21,8 +21,8 @@ body {
     transform: translate(-50%, -50%);
     color: white;
 }
-P
-.services {
+
+ .services {
     background-image: url("./img/s_image.jpg");
     height: 500px;
     background-position: center;
@@ -107,7 +107,7 @@ input[type=submit]:hover {
 
 .col {
     float: left;
-    width: 25%;
+    width: 22%;
     padding: 10px;
 }
 
@@ -119,4 +119,13 @@ input[type=submit]:hover {
 }
 
 /* Responsive layout - when the screen is less than 768px wide,  */
-@media (min-width: 768px)
+@media (min-width: 768px) {
+    {
+            .col {
+            width: 100%;
+    float: none;
+        padding: 15px 0;
+         }
+        }
+        
+}
