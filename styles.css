@@ -4,7 +4,7 @@ body {
 }
 
 .header-image {
-    background-image: url("img/h_img.jpg");
+    background-image: url("https://github.com/dianawambuim/IP3/blob/master/assets/backgrounds/h_img.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -41,7 +41,13 @@ body {
     transform: translate(-50%, -50%);
     color: white;
 }
-
+.portfolio {
+    margin: 15px;
+    }
+    .img-resize{
+        max-width: 100%;
+        height: auto;
+    }
 .footer {
     background-image: url("img/c_image.jpg");
     height: 500px;
