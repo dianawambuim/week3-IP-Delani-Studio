@@ -4,7 +4,7 @@ body {
 }
 
 .header-image {
-    background-image: url("https://github.com/dianawambuim/week3-IP-Delani-Studio/blob/main/img/h_img.jpg");
+    background-image:url(https://github.com/dianawambuim/week3-IP-Delani-Studio/blob/main/img/h_img.jpg);
     background-color: #cccccc;
     height: 500px;
     background-position: center;
