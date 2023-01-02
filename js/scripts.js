@@ -1,17 +1,17 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-    $("#design").click(function() {
-      if($('#designp').hasClass('d-none')){
+  $("#design").click(function () {
+    if ($('#designp').hasClass('d-none')) {
       $('#designp').removeClass('d-none');
-      }else{
+    } else {
       $('#designp').addClass('d-none');
-      }
+    }
   });
-  
+
 });
 
-(function(){
-  
+(function () {
+
 });
 
 
