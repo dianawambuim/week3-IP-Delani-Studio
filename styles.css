@@ -112,7 +112,7 @@ input[type=submit]:hover {
 
 .col {
     float: left;
-    max-width: 100%;
+    width: 22%;
     padding: 10px;
     text-align: center;
 }
