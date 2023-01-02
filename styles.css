@@ -22,7 +22,12 @@ body {
     color: white;
 }
 
- .services {
+.about {
+    text-align: center;
+    font-size: 12px;
+}
+
+.services {
     background-image: url("./img/s_image.jpg");
     height: 500px;
     background-position: center;
@@ -107,8 +112,9 @@ input[type=submit]:hover {
 
 .col {
     float: left;
-    width: 22%;
+    max-width: 100%;
     padding: 10px;
+    text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -120,12 +126,12 @@ input[type=submit]:hover {
 
 /* Responsive layout - when the screen is less than 768px wide,  */
 @media (min-width: 768px) {
-    {
-            .col {
+        {
+        .col {
             width: 100%;
-    float: none;
-        padding: 15px 0;
-         }
+            float: none;
+            padding: 15px 0;
         }
-        
+    }
+
 }
