@@ -117,6 +117,7 @@ input[type=submit]:hover {
     text-align: center;
 }
 
+
 /* Clear floats after the columns */
 .row:after {
     content: "";

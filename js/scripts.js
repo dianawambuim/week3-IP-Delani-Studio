@@ -40,3 +40,19 @@ $(".designp").click(function(){
   $(".designp").hide();
   $("#design").show();
 });
+$(document).ready(function() {
+  $("#form2").submit(function(event) {
+    event.preventDefault();
+
+    var fname = document.getElementById("fname").value;
+    var email = document.getElementById("email").value;
+    if (fname == "" || email == ""){
+      alert("enter a name and your email address ");
+      
+    }else
+    {alert("we have received your message. Thank you for reaching out")}
+
+                event.preventDefault();
+    });
+});
+      
