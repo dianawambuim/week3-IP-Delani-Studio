@@ -11,48 +11,56 @@
 //  });
 
 
-$(document).ready(function(){
+$(document).ready(function () {
   $(".designp").hide();
   $(".developmentp").hide();
   $(".productp").hide();
 });
-$("#design").click(function(){
+$("#design").click(function () {
   $(".designp").show();
   $("#design").hide();
 });
-$("#development").click(function(){
+$("#development").click(function () {
   $(".developmentp").show();
   $("#development").hide();
 });
-$("#product").click(function(){
+$("#product").click(function () {
   $(".productp").show();
   $("#product").hide();
 });
-$(".productp").click(function(){
+$(".productp").click(function () {
   $(".productp").hide();
   $("#product").show();
 });
-$(".developmentp").click(function(){
+$(".developmentp").click(function () {
   $(".developmentp").hide();
   $("#development").show();
 });
-$(".designp").click(function(){
+$(".designp").click(function () {
   $(".designp").hide();
   $("#design").show();
 });
-$(document).ready(function() {
-  $("#form2").submit(function(event) {
+$(document).ready(function () {
+  $("#form2").submit(function (event) {
     event.preventDefault();
 
     var fname = document.getElementById("fname").value;
     var email = document.getElementById("email").value;
-    if (fname == "" || email == ""){
+    if (fname == "" || email == "") {
       alert("enter a name and your email address ");
-      
-    }else
-    {alert("we have received your message. Thank you for reaching out")}
 
-                event.preventDefault();
-    });
+    } else { alert("we have received your message. Thank you for reaching out") }
+
+    event.preventDefault();
+  });
 });
-      
+
+$(document).ready(function () {
+  $(".text1").hide();
+  $(".img1").hover(function (event) {
+    $(".text1").show();
+  }, function () {
+    $(".text1").hide();
+
+  });
+});
