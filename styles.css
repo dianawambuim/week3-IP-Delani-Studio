@@ -52,8 +52,7 @@ body {
 }
 
 .text1 {
-    visibility: hidden;
-    color: white;
+    color: rgb(15, 15, 15);
     font-size: 16px;
     padding: 16px 32px;
 }
